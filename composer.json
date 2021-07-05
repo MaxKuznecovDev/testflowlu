@@ -1,0 +1,17 @@
+{
+    "name": "user/test",
+    "description": "Flowlu test",
+    "authors": [
+        {
+            "name": "Max Kuznecov",
+            "email": "maxkuznecovdev@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "App",
+            "project\\": "App/Interfase"
+        }
+    }
+}
